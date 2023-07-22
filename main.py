@@ -27,6 +27,8 @@ try:
                 print(f"Password found: {password}")
                 found_password = True
                 break
+            else:
+                print(password)
         if found_password:
             break
 
